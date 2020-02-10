@@ -35,7 +35,6 @@ turn = turn;
   render();
 };
 
-// who going first
 function pickX() {
   document.getElementById("turn").innnerHTML = "Turn: X";
   turn = "X";
