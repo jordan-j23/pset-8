@@ -23,7 +23,7 @@ document.getElementById("pickO").onclick = pickO;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 
-///////////////////// FUNCTIONS /////////////////////////////////////
+
 function init() {
   board = [
     "", "", "",
