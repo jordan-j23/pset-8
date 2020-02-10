@@ -19,8 +19,8 @@ const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
 
 window.onload = init;
-document.getElementById("chooseX").onclick = pickX;
-document.getElementById("chooseO").onclick = pickO;
+document.getElementById("chooseX").onclick = chooseX;
+document.getElementById("chooseO").onclick = chooseO;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 
@@ -36,12 +36,12 @@ turn = turn;
   render();
 };
 
-function pickX() {
+function chooseX() {
   document.getElementById("turn").innnerHTML = "Turn: X";
   turn = "X";
 };
 
-function pickO() {
+function chooseO() {
   document.getElementById("turn").innerHTML = "Turn: O";
   turn = "O";
 }
