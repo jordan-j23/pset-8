@@ -8,7 +8,6 @@ const winningConditions = [
   [0, 4, 8],
   [2, 4, 6]
 ];
-///////////////////// APP STATE (VARIABLES) /////////////////////////
 let board;
 let turn = "X"
 let win;
