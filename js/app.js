@@ -72,7 +72,7 @@ if (board[index] === "") {
 function getWinner() {
   let winner = null;
 
-  winningConditions.forEach(function(condition, index) {
+  winningPosition.forEach(function(condition, index) {
     if (
       board[condition[0]] && board[condition[0]] === board[condition[1]] && board[condition[1]] === board[condition[2]]
     ) {
