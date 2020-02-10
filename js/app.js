@@ -80,7 +80,6 @@ function getWinner() {
     }
   });
 
-//score count
   if (winner === "X") {
     pointsX++;
     document.getElementById("scoreX").innerHTML = pointsX;
@@ -94,6 +93,7 @@ function getWinner() {
 
   return winner ? winner : board.includes("") ? null : "T";
 
+]
 
 
 };
