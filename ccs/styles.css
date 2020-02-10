@@ -36,7 +36,7 @@ h2 {
 
 .square {
   border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 96px;
+  font-size: 98px;
   height: 150px;
   line-height: 150px;
   user-select: none;
@@ -44,7 +44,7 @@ h2 {
 }
 
 .square:hover {
-  background-color: lightgray;
+  background-color: grey;
   cursor: pointer;
 }
 
