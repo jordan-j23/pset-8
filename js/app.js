@@ -19,7 +19,7 @@ const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
 
 window.onload = init;
-document.getElementById("pickX").onclick = pickX;
+document.getElementById("chooseX").onclick = pickX;
 document.getElementById("pickO").onclick = pickO;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
