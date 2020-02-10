@@ -20,7 +20,7 @@ const message = document.querySelector("h2");
 
 window.onload = init;
 document.getElementById("chooseX").onclick = pickX;
-document.getElementById("pickO").onclick = pickO;
+document.getElementById("chooseO").onclick = pickO;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 
