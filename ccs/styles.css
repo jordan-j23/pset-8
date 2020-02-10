@@ -7,7 +7,7 @@ h1 {
   margin: 0 auto;
   font-family: "Major Mono Display", monospace;
   font-size: 48px;
-  margin: 2%;
+  margin: 4%;
 }
 
 h2 {
@@ -49,52 +49,52 @@ h2 {
 }
 
 #reset-button {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  font-size: 21px;
+  background-color: lightgray;
+  border: 2px solid black;
+  color: red;
+  font-size: 24px;
   line-height: 55px;
-  margin: 1%;
+  margin: 2%;
   text-align: center;
-  width: 456px;
+  width: 458px;
 }
 
 #reset-button:hover {
-  background-color: black;
-  color: white;
+  background-color: grey;
+  color: black;
   cursor: pointer;
 }
 
 #scoreX {
   font-family: "Courier", monospace;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: lighter;
-  margin: 2%;
+  margin: 4%;
   list-style: none;
 }
 
 #scoreO {
   font-family: "Courier", monospace;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: lighter;
-  margin: 2%;
+  margin: 4%;
   list-style: none;
 }
 
 #chooseX {
 font-family: "Courier", monospace;
-font-size: 20px;
+font-size: 24px;
 font-weight: bold;
-margin: 2%;
-border-color: grey;
+margin: 4%;
+border-color: black;
 padding: 10px 20px;
 }
 
 #chooseO {
   font-family: "Courier", monospace;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  margin: 2%;
-  border-color: grey;
+  margin: 4%;
+  border-color: black;
   padding: 10px 20px;
 }
